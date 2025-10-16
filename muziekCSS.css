@@ -1,0 +1,57 @@
+body {
+    font-family: Verdana, sans-serif;
+    background: cadetblue;
+    color: white;
+}
+h1 {
+    color: orange;
+}
+.Pukkelpop{
+    background: #26bdbd;
+    color: white;
+    border: 1px solid orange;
+    padding: 25px;
+    margin: 10px;
+
+}
+.Graspop{
+    background: lightgreen;
+    color: white;
+    border: 1px solid orange;
+    padding: 25px;
+    margin: 10px;
+
+}
+.RockWerchter{
+    background: lightpink;
+    color: white;
+    border: 1px solid orange;
+    padding: 25px;
+    margin: 10px;
+
+}
+.Dour{
+    background: #d6d64a;
+    color: white;
+    border: 1px solid orange;
+    padding: 25px;
+    margin: 10px;
+}
+.Tomorrowland{
+    background: #0976bc;
+    color: white;
+    border: 1px solid orange;
+    padding: 25px;
+    margin: 10px;
+
+}
+.festivalknoppen{
+    display: inline-block;
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+}
