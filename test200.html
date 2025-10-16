@@ -9,3 +9,112 @@
 
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Permanente evaluatie</title>
+</head>
+<body>
+    <h1>Git & GitHub</h1>
+
+    <h2>Veel gemaakte fouten</h2>
+    <ul>
+        <li>Vergeten te committen voor het pushen</li>
+        <li>Werken in de verkeerde branch</li>
+        <li>Conflicten niet correct oplossen</li>
+    </ul>
+
+    <p>
+        <a href="about.html" target="_blank">Over mij</a>
+    </p>
+</body>
+</html>
+➡️ Let op de hyperlink:
+
+
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Over mij</title>
+</head>
+<body>
+    <p>Mijn naam is [JE EIGEN NAAM].</p>
+</body>
+</html>
+
+
+
+
+🚀 Stappenplan — Repository met eenvoudige webpagina
+1️⃣ Maak een nieuwe map
+mkdir eenvoudige-webpagina
+cd eenvoudige-webpagina
+
+2️⃣ Initialiseer de Git-repository
+git init
+
+3️⃣ Maak de bestanden aan
+index.html
+echo "<!DOCTYPE html>
+<html lang='nl'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Permanente evaluatie</title>
+</head>
+<body>
+  <h1>Git & GitHub</h1>
+  <h2>Veel gemaakte fouten</h2>
+  <ul>
+    <li>Vergeten te committen voor het pushen</li>
+    <li>Werken in de verkeerde branch</li>
+    <li>Conflicten niet correct oplossen</li>
+  </ul>
+  <p><a href='about.html' target='_blank'>Over mij</a></p>
+</body>
+</html>" > index.html
+
+about.html
+echo "<!DOCTYPE html>
+<html lang='nl'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Over mij</title>
+</head>
+<body>
+  <p>Mijn naam is [Jouw Naam].</p>
+</body>
+</html>" > about.html
+
+4️⃣ Controleer wat er klaarstaat
+git status
+
+5️⃣ Voeg de bestanden toe aan de staging area
+git add index.html about.html
+
+6️⃣ Commit de bestanden
+git commit -m "Voeg eenvoudige webpagina toe met index en about pagina's"
+
+7️⃣ Maak een repository op GitHub
+
+Ga naar https://github.com/new
+
+→ geef hem bijvoorbeeld de naam eenvoudige-webpagina
+→ laat hem leeg (dus geen README aanvinken).
+
+8️⃣ Koppel je lokale repository aan GitHub
+
+Vervang <gebruikersnaam> met je echte GitHub-gebruikersnaam:
+
+git remote add origin https://github.com/<gebruikersnaam>/eenvoudige-webpagina.git
+
+9️⃣ Push je code naar GitHub
+git branch -M main
+git push -u origin main
